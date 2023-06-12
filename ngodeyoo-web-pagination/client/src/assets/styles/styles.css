@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+.span {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.icon {
+  color: #19376d;
+  font-size: 25px;
+}
+
+.font_profile {
+  font-family: Secular One, sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.font {
+  font-family: Secular One, sans-serif;
+  letter-spacing: 1px;
+}
+
+.bg-pink {
+  color: white;
+  background-color: #e11299;
+  width: 350px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.bg-orange {
+  border: 1px solid #fc4f00;
+  width: 110px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+.bg-orange-hover:hover {
+  color: white;
+  background-color: #fc4f00;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+.bg-orange-btn {
+  border: 1px solid #fc4f00;
+  width: 120px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  border-radius: 5px;
+}
+.bg-orange-hover-btn:hover {
+  color: white;
+  background-color: #fc4f00;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+}
+.bg-white {
+  background-color: white;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.btn-orange {
+  text-align: center;
+  padding-top: 2px;
+  margin-left: 110px;
+  background-color: #fc4f00;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.bg-purple {
+  background-color: #865dff;
+  width: 250px;
+}
+.text-hover:hover {
+  color: #fc4f00;
+}
+.pink {
+  color: #e11299;
+}
+.purple {
+  color: #865dff;
+}
+.orange {
+  color: #fc4f00;
+  font-weight: 600;
+}
+.blue {
+  color: #19376d;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.01);
+}
+.text {
+  text-align: justify;
+}
+
+.hero {
+  width: 100%;
+  height: auto;
+  background-color: #19376d;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #fc4f00;
+  margin-top: -100px;
+  margin-left: 30px;
+}
+.name {
+  font-size: 2rem;
+  font-family: Secular One, sans-serif;
+  margin-top: -80px;
+  margin-left: 300px;
+  padding-bottom: 10px;
+}
+.biodata {
+  font-family: Secular One, sans-serif;
+}
+.sosial-media {
+  width: 30px;
+  height: 30px;
+}
+.info {
+  color: white;
+  width: 150px;
+  height: auto;
+  padding: 10px;
+  background-color: #fc4f00;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 35%;
+}
+.container-event {
+  width: 1000px;
+  height: auto;
+  align-items: center;
+}
+.sizeimg img {
+  width: 480px;
+}
+.lottipleyer {
+  width: 480px;
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .container-event {
+    width: 400px;
+    height: auto;
+    align-items: normal;
+  }
+  .profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #fc4f00;
+    margin-top: -70px;
+    margin-left: 90px;
+  }
+  .name {
+    font-size: 1.5rem;
+    font-family: Secular One, sans-serif;
+    margin-top: 10px;
+    margin-left: 80px;
+    padding-bottom: 10px;
+  }
+  .pop {
+    margin-left: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .sizeimg img {
+    width: 100%;
+  }
+  .lottipleyer {
+    width: 100%;
+  }
+}
+.text-muted-footer {
+  color: white;
+  font-size: 15px;
+  background-color: #fc4f00;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

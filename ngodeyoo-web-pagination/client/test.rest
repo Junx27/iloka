@@ -1,0 +1,32 @@
+###
+curl 'https://gwzjsxzbqwybnifecbqc.supabase.co/rest/v1/Tunjangan_id?select=*' \
+-H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd3empzeHpicXd5Ym5pZmVjYnFjIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM1NjM5MDEsImV4cCI6MTk5OTEzOTkwMX0.EnTPswGNuKDKuAQqRlSu8mcaSBnUNAnZxTbCdG-Pchs" \
+-H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd3empzeHpicXd5Ym5pZmVjYnFjIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM1NjM5MDEsImV4cCI6MTk5OTEzOTkwMX0.EnTPswGNuKDKuAQqRlSu8mcaSBnUNAnZxTbCdG-Pchs"
+
+###
+curl -X POST 'https://rhmjeleyaoxxsomfutfr.supabase.co/auth/v1/signup' \
+-H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJobWplbGV5YW94eHNvbWZ1dGZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM2MDU2NTYsImV4cCI6MTk5OTE4MTY1Nn0.Sph_5i5LbER1fQXMsBuO72Rkx_VPsaO47liXOcdMKAs" \
+-H "Content-Type: application/json" \
+-d '{
+  "email": "tari@gmail.com",
+  "password": "tariku"
+}'
+
+###
+curl -X POST 'https://dbhpkmvigjuofpaqsvxn.supabase.co/rest/v1/posts' \
+-H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRiaHBrbXZpZ2p1b2ZwYXFzdnhuIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODQ5MzEwNzQsImV4cCI6MjAwMDUwNzA3NH0.ug5C8CixUmJfbVpHavRonD0mqMuSDeaOiTPpbLoxcws" \
+-H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRiaHBrbXZpZ2p1b2ZwYXFzdnhuIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODQ5MzEwNzQsImV4cCI6MjAwMDUwNzA3NH0.ug5C8CixUmJfbVpHavRonD0mqMuSDeaOiTPpbLoxcws" \
+-H "Content-Type: application/json" \
+-H "Prefer: return=minimal" \
+-d '{ "judul_pekerjaan": "operator" }'
+
+
+###
+curl 'https://rhmjeleyaoxxsomfutfr.supabase.co/rest/v1/test?select=id' \
+-H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJobWplbGV5YW94eHNvbWZ1dGZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM2MDU2NTYsImV4cCI6MTk5OTE4MTY1Nn0.Sph_5i5LbER1fQXMsBuO72Rkx_VPsaO47liXOcdMKAs" \
+-H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJobWplbGV5YW94eHNvbWZ1dGZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM2MDU2NTYsImV4cCI6MTk5OTE4MTY1Nn0.Sph_5i5LbER1fQXMsBuO72Rkx_VPsaO47liXOcdMKAs"
+
+###
+curl -X DELETE 'https://rhmjeleyaoxxsomfutfr.supabase.co/rest/v1/test?some_column=eq.someValue' \
+-H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJobWplbGV5YW94eHNvbWZ1dGZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM2MDU2NTYsImV4cCI6MTk5OTE4MTY1Nn0.Sph_5i5LbER1fQXMsBuO72Rkx_VPsaO47liXOcdMKAs" \
+-H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJobWplbGV5YW94eHNvbWZ1dGZyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODM2MDU2NTYsImV4cCI6MTk5OTE4MTY1Nn0.Sph_5i5LbER1fQXMsBuO72Rkx_VPsaO47liXOcdMKAs"
